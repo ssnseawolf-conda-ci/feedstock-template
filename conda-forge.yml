@@ -1,0 +1,19 @@
+test: native
+
+github:
+  branch_name: main
+  tooling_branch_name: main
+
+provider:
+  linux_64: azure
+  osx_64: None
+  win_64: None
+
+azure:
+  settings_linux:
+    pool:
+      name: Default
+    workspace:
+      clean: all
+    strategy:
+      maxParallel: 1

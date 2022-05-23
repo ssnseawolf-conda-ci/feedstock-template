@@ -1,0 +1,12 @@
+python:
+  - 3.9.* *_cpython
+python_impl:
+  - cpython
+
+channel_sources:
+  - https://conda.anaconda.org/t/$BINSTAR_TOKEN/$SOURCE_REPO,pytorch,nvidia,conda-forge,defaults
+channel_targets:
+  - $DESTINATION_REPO main
+
+docker:
+  image: "condaforge/linux-anvil-cuda"

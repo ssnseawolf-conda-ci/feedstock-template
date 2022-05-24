@@ -15,12 +15,4 @@ azure:
       name: Default
     workspace:
       clean: all
-    strategy:
-      maxParallel: 1
-  settings_linux:
-    pool:
-      vmImage: 'ubuntu-latest'
-    workspace:
-      clean: all
-    strategy:
-      maxParallel: 1
+

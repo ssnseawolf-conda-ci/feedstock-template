@@ -5,7 +5,8 @@ python_impl:
 numpy:
   - 1.16
 
+
 channel_sources: https://conda.anaconda.org/t/$BINSTAR_TOKEN/ssnseawolf,pytorch,nvidia,conda-forge,defaults
 channel_targets: ssnseawolf main
 
-docker_image: "condaforge/linux-anvil-cuda"
+docker_image: "condaforge/linux-anvil-cuda:11.3"

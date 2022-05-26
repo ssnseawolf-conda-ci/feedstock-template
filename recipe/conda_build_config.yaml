@@ -1,10 +1,12 @@
 python:
   - 3.9
+  - 3.10
 python_impl:
+  - cpython
   - cpython
 numpy:
   - 1.16
-
+  - 1.16
 
 channel_sources: https://conda.anaconda.org/t/$BINSTAR_TOKEN/ssnseawolf,pytorch,nvidia,conda-forge,defaults
 channel_targets: ssnseawolf main

@@ -1,14 +1,12 @@
 python:
-  - 3.9
-  - 3.10
+  - 3.10.*
 python_impl:
   - cpython
-  - cpython
 numpy:
-  - 1.16
-  - 1.16
+  - 1.20.*
+cudatoolkit:
+  - 11.3.*
 
-channel_sources: https://conda.anaconda.org/t/$BINSTAR_TOKEN/ssnseawolf,pytorch,nvidia,conda-forge,defaults
+docker_image: quay.io/condaforge/linux-anvil-cuda:11.3
+channel_sources: https://conda.anaconda.org/t/$BINSTAR_TOKEN/ssnseawolf,pytorch,conda-forge,defaults
 channel_targets: ssnseawolf main
-
-docker_image: "condaforge/linux-anvil-cuda:11.3"

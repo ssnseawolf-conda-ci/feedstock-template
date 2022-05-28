@@ -15,4 +15,3 @@ azure:
       name: Default
     workspace:
       clean: all
-

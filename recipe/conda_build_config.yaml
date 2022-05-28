@@ -1,10 +1,14 @@
 python:
+  - 3.9.*
   - 3.10.*
 python_impl:
   - cpython
+  - cpython
 numpy:
   - 1.20.*
+  - 1.20.*
 cudatoolkit:
+  - 11.3.*
   - 11.3.*
 
 docker_image: quay.io/condaforge/linux-anvil-cuda:11.3

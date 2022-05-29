@@ -3,7 +3,7 @@ python:
 python_impl:
   - cpython
 numpy:
-  - 1.22.*
+  - 1.21.*
 cudatoolkit:
   - 11.3.*
 
